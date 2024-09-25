@@ -12,7 +12,7 @@ const Footer = () => {
     initializeAos();
   }, []);
   return (
-    <div className=" py-12 sm:py-20">
+    <div className="bg-white py-12 sm:py-20">
       <Container>
         <div
           data-aos="zoom-in"

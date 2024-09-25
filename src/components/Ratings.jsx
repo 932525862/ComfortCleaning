@@ -1,6 +1,6 @@
 import Container from '../utils/Utils'
 import CountUp from "react-countup"
-import ratings from "../assets/ratings.png"
+import ratings from "../assets/ratingse.png"
 import ScrollTrigger from 'react-scroll-trigger'
 import { useEffect, useState } from 'react'
 import AOS from 'aos';

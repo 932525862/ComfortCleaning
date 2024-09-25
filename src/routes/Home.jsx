@@ -10,7 +10,7 @@ import Enterprises from '../components/Enterprises'
 import About from '../components/About'
 import Form from '../components/Form'
 import Footer from '../components/Footer'
-
+import Forex from "../components/Forex"
 const Home = () => {
   return (
     <>
@@ -20,6 +20,7 @@ const Home = () => {
         <Ratings/>
         <Dream/>
         <Projects/>
+		<Forex/>
         <News/>
         <Enterprises/>
         <About/>
