@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from "react";
 import Container from "../utils/Utils";
-import logo from "../assets/comfort03.png";
-import logoDark from "../assets/comfort03.png";
+import logo from "../assets/logoqizill.png";
+import logoDark from "../assets/logoqizill.png";
 import {GiHamburgerMenu} from "react-icons/gi";
 import {FaPhoneFlip} from "react-icons/fa6";
 import {IoClose} from "react-icons/io5";

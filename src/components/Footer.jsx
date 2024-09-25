@@ -1,7 +1,7 @@
 import React, {useEffect} from "react";
-import logo from "../assets/comfort03.png";
+import logo from "../assets/logoqizill.png";
 import Container from "../utils/Utils";
-import {FaInstagram, FaFacebookF} from "react-icons/fa";
+import {FaInstagram, FaTelegram} from "react-icons/fa";
 import {useTranslation} from "react-i18next";
 import initializeAos from "../aos/aosSetup";
 
@@ -38,10 +38,10 @@ const Footer = () => {
               </button>
               <button className="rounded-full w-[34px] h-[34px] sm:w-[40px] sm:h-[40px] flex items-center justify-center border-[1px] border-black bg-black text-white text-lg sm:text-xl p-6 hover:text-black hover:bg-transparent transition-colors duration-300">
                 <a
-                  href="https://www.facebook.com"
+                  href="https://t.me/comfortgilam"
                   target="blank"
                 >
-                  <FaFacebookF />
+                  <FaTelegram />
                 </a>
               </button>
             </div>
