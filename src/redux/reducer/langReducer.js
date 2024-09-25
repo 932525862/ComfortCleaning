@@ -1,5 +1,5 @@
 const initialState={
-    langCode:localStorage.getItem('lang')||'en'
+    langCode:localStorage.getItem('lang')||'uz'
 }
 
 
