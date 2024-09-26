@@ -11,6 +11,7 @@ import shax from "../assets/shax.jpg";
 import ayol from "../assets/ayol.jpg";
 import korest from "../assets/kores.jpg";
 import kaba from "../assets/kaba.jpg";
+
 const About = () => {
   const { t } = useTranslation();
 
