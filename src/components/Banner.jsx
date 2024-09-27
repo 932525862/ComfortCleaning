@@ -11,7 +11,10 @@ const Banner = () => {
   },[])
   return (
     <div
-      style={{ backgroundImage: `url(${banner})` }}
+      style={{
+		 backgroundImage: `url(${banner})`, 
+		 backgroundSize: "100% 90%"
+      }}
       className="h-[100vh] overflow-hidden bg-cover bg-center before:bg-[rgba(0,0,0,.5)] before:absolute before:top-0 before:left-0 before:w-full before:h-full" 
     >
       <div className="h-[100vh] flex flex-col justify-center max-w-[1320px] px-5 mx-auto text-white relative">
