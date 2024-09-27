@@ -4,7 +4,7 @@ import './App.css';
 import './index.css';
 import Home from './routes/Home';
 import "react-toastify/dist/ReactToastify.css";
-import loadingGif from './assets/lodingg.gif'; // Updated to match the correct path
+import loadingGif from './assets/loding2.gif'; // Updated to match the correct path
 
 function App() {
   const [loading, setLoading] = useState(true);
