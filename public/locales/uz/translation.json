@@ -118,6 +118,9 @@
         "h42":"Aloqa",
         "projects":"Bizning loyihalarimiz"
     },
+	"vide":{
+       "videotitel": "Bizning ish jarayonimizdan lavhalar"
+	},
 	"modal":{
 		"titel":"Iltimos, ushbu formani to'ldiring.",
 		"ism": "Ismingiz",

@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import banner from "../assets/gilanyuvish.jpg";
 import { useTranslation } from "react-i18next";
 import initializeAos from "../aos/aosSetup"
-import back from "../assets/video.gif" // Import the background GIF
+
 const Banner = () => {
   const {t}=useTranslation()
 
@@ -11,12 +11,7 @@ const Banner = () => {
   },[])
   return (
     <div
-	style={{
-        backgroundImage: `url(${back})`,   // Set the background image here
-        backgroundSize: 'cover',           // Make sure the image covers the whole section
-        backgroundPosition: 'center',      // Center the background image
-        backgroundRepeat: 'no-repeat',     // Prevent repeating the image
-      }}
+      style={{ backgroundImage: `url(${banner})` }}
       className="h-[100vh] overflow-hidden bg-cover bg-center before:bg-[rgba(0,0,0,.5)] before:absolute before:top-0 before:left-0 before:w-full before:h-full" 
     >
       <div className="h-[100vh] flex flex-col justify-center max-w-[1320px] px-5 mx-auto text-white relative">
