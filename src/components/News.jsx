@@ -5,7 +5,8 @@ import news1 from "../assets/why1.webp"
 import news2 from "../assets/why2.jpg"
 import news3 from "../assets/why3.jpeg"
 import news4 from "../assets/why4.jpeg"
-import back from "../assets/video.gif" // Import the background GIF
+import bacround from "../assets/formaimg.jpeg"
+// import back from "../assets/video.gif" // Import the background GIF
 import { useTranslation } from 'react-i18next'
 import initializeAOS from '../aos/aosSetup'
 
@@ -21,10 +22,11 @@ const News = () => {
       id='news'
       className='mt-10 mb-20 pb-8 bg-[#f7f7f7] pt-16'
       style={{
-        backgroundImage: `url(${back})`,   // Set the background image here
+        backgroundImage: `url(${bacround})`,   // Set the background image here
         backgroundSize: 'cover',           // Make sure the image covers the whole section
         backgroundPosition: 'center',      // Center the background image
-        backgroundRepeat: 'no-repeat',     // Prevent repeating the image
+        backgroundRepeat: 'no-repeat', 
+		backgroundSize: "100% 90%"    // Prevent repeating the image
       }}
     >
       <Container>
